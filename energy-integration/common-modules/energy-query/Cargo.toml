@@ -1,0 +1,15 @@
+[package]
+name = "energy-query"
+version = "0.0.0"
+authors = ["Dharitri <contact@dharitri.org>"]
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.dharitri-sc]
+version = ""1.0.1""
+features = ["esdt-token-payment-legacy-decode"]
+
+[dependencies.energy-factory]
+path = "../../../locked-asset/energy-factory"
